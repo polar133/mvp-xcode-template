@@ -1,5 +1,7 @@
 # Xcode Templates: MVP
 
+![alt text](https://github.com/polar133/mvp-xcode-template/blob/master/mvp.png)
+
 Plantillas para crear features en los proyectos de iOS.
 
 ## Instalar
