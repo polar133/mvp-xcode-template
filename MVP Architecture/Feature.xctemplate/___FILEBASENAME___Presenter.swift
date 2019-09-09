@@ -19,7 +19,7 @@ protocol ___VARIABLE_featureName___PresentationModelLogic: class {
 }
 
 class ___VARIABLE_featureName___Presenter: ___VARIABLE_featureName___PresentationLogic, ___VARIABLE_featureName___PresentationModelLogic, ___VARIABLE_featureName___ParametersLogic {
-	
+
 	weak var view: ___VARIABLE_featureName___DisplayLogic?
-	var model: ___VARIABLE_featureName___Model?
+	var model: (___VARIABLE_featureName___ModelLogic & ___VARIABLE_featureName___DataStore)?
 }
