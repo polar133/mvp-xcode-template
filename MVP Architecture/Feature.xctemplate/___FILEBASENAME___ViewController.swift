@@ -17,8 +17,8 @@ public class ___VARIABLE_featureName___ViewController: UIViewController, ___VARI
 
 	// MARK: Object lifecycle
 	init() {
-		super.init(nibName: String(describing: ___VARIABLE_featureName___ViewController.self), 
-			bundle: Bundle(for: ___VARIABLE_featureName___ViewController.classForCoder()))
+		super.init(nibName: String(describing: ___VARIABLE_featureName___ViewController.self),
+                   bundle: Bundle(for: ___VARIABLE_featureName___ViewController.classForCoder()))
 	}
 
 	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
