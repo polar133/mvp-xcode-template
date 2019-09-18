@@ -11,9 +11,9 @@ import UIKit
 protocol ___VARIABLE_featureName___DisplayLogic: class {
 }
 
-public class ___VARIABLE_featureName___ViewController: UIViewController, ___VARIABLE_featureName___DisplayLogic {
+class ___VARIABLE_featureName___ViewController: UIViewController, ___VARIABLE_featureName___DisplayLogic {
 	var presenter: ___VARIABLE_featureName___PresentationLogic?
-	public var params: ___VARIABLE_featureName___ParametersLogic?
+	var params: ___VARIABLE_featureName___ParametersLogic?
 
 	// MARK: Object lifecycle
 	init() {
@@ -31,7 +31,7 @@ public class ___VARIABLE_featureName___ViewController: UIViewController, ___VARI
 
 	// MARK: View lifecycle
 
-	override public func viewDidLoad() {
+	override func viewDidLoad() {
 		super.viewDidLoad()
 	}
 }

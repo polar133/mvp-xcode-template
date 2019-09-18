@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol ___VARIABLE_featureName___ParametersLogic {
+protocol ___VARIABLE_featureName___ParametersLogic {
 	//Here goes the func that receive data as params if needed to be saved in DataStore.
 }
 
